@@ -36,6 +36,9 @@ ln -s /usr/local/share/android-sdk/platform-tools/adb /usr/local/bin
 adb connect 127.0.0.1:62001
 # 显示当前链接的 devices, 显示 127.0.0.1:62001 device 表示OK
 adb devices
+# 安装 build-tools 并把 aapt 拷贝到 platform-tools 文件夹
+sdkmanager "build-tools;29.0.2"
+cp /usr/local/share/android-sdk/build-tools/29.0.2/aapt /usr/local/share/android-sdk/platform-tools/
 ```
 
 ## Android 模拟器

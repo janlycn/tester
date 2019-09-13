@@ -3,8 +3,10 @@
 一个出于学习目的的集成测试项目，基于 python3
 
 - [说明](docs/introduction.md)
+- [相关环境搭建](docs/environment.md)
 - [关于 appium](docs/about-appium.md)
-- [环境搭建](docs/environment.md)
+- [关于 pytest](docs/about-pytest.md)
+- [Desired Capabilities 配置参考](docs/desired-capabilities.md)
 
 ## 相关资源
 
