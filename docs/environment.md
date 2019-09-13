@@ -7,7 +7,9 @@
 ## Windows - Android 环境
 
 到[官网](https://developer.android.com/studio)安装 sdk-tool-windows
+
 配置 ANDROID_HOME 环境变量
+
 安装 platform-tools 配置 adb 环境变量
 
 ```shell
