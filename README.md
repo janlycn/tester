@@ -7,6 +7,7 @@
 - [关于 appium](docs/about-appium.md)
 - [关于 pytest](docs/about-pytest.md)
 - [Desired Capabilities 配置参考](docs/desired-capabilities.md)
+- [应用元素定位方法](docs/check-elements.md)
 
 ## 相关资源
 
