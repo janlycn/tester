@@ -15,3 +15,5 @@ pytest 或者 unittest
 
 1. 初期项目只集成 appium 和 pytest 或者 unittest
 2. 后期加入 selenium 或者 pyppeteer 测试 web 端
+3. docker 部署
+4. jenkins+allure+pytest持续集成
