@@ -34,13 +34,13 @@ sdkmanager platform-tools
 ln -s /usr/local/share/android-sdk/platform-tools/adb /usr/local/bin
 # 连接夜神模拟器，或直接使用夜神里面的adb
 adb connect 127.0.0.1:62001
-# 显示当前链接的 devices
+# 显示当前链接的 devices, 显示 127.0.0.1:62001 device 表示OK
 adb devices
 ```
 
 ## Android 模拟器
 
-[夜神模拟器](https://www.yeshen.com/)
+[夜神模拟器](https://www.yeshen.com/)，设备连接：127.0.0.1:62001
 
 ## 验证
 

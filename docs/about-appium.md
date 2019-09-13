@@ -10,7 +10,13 @@ Apache Cordova 或 Phonegap 等项目可以轻松地使用 Web 技术构建应�
 
 有关 Appium“支持”其平台和自动化模式的具体信息，请参阅平台支持文档。
 
-ps: Appium 服务端是基于 node 开发，只是一个HTTP服务器，需要配合各语言的客户端一起使用。
+ps: Appium 服务端是基于 node 开发，只是一个 HTTP 服务器，需要配合各语言的客户端一起使用。
+
+## 环境
+
+java sdk 环境 或单独配置 jre 环境
+node
+npm
 
 ## 安装方法
 
@@ -18,10 +24,21 @@ ps: Appium 服务端是基于 node 开发，只是一个HTTP服务器，需要�
 
 ## 验证安装
 
-需要 node 环境及 npm
-
 ```shell
 npm install -g appium-doctor
 appium-doctor --ios
 appium-doctor --android
 ```
+
+## appium desktop 配置 session 方法（也可以客户端发送）
+
+[配置文档](http://appium.io/docs/en/writing-running-appium/caps/index.html)
+
+![inspector session](img/desktop1.png)
+
+![setting](img/desktop2.jpg)
+
+## appPackage 及 appActivity 获得方法
+
+1. 叫开发给
+2. 通过 apktool 反编译 apk，打开 AndroidManifest.xml 查看
