@@ -17,6 +17,7 @@ ps: Appium 服务端是基于 node 开发
 java sdk 环境 或单独配置 jre 环境
 node
 npm
+android sdk，包含 platform-tools 和 build-tools
 
 ## 安装方法
 
@@ -26,7 +27,10 @@ npm
 
 ```shell
 npm install -g appium-doctor
+
 appium-doctor --ios
+
+# 需安装 android sdk，包含 platform-tools 和 build-tools
 appium-doctor --android
 ```
 
@@ -41,4 +45,4 @@ appium-doctor --android
 ## appPackage 及 appActivity 获得方法
 
 1. 叫开发给
-2. 通过 apktool 反编译 apk，打开 AndroidManifest.xml 查看
+2. 通过 [apktool](https://ibotpeaches.github.io/Apktool/install/) 反编译 apk，打开 AndroidManifest.xml 查看

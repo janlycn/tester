@@ -4,7 +4,7 @@
 
 到官网下载 jre，配置 JAVA_HOME 等环境变量即可
 
-## Windows - Android 环境
+## Windows - Android 环境 (作参考流程，还没试验)
 
 到[官网](https://developer.android.com/studio)安装 sdk-tool-windows
 
@@ -16,6 +16,8 @@
 # 显示当前链接的 devices
 adb devices
 ```
+
+安装 build-tools 并把 aapt 拷贝到 platform-tools 文件夹
 
 ## MacOS - Android 环境
 
@@ -31,11 +33,15 @@ brew cask install android-sdk
 
 ```shell
 sdkmanager platform-tools
+
 ln -s /usr/local/share/android-sdk/platform-tools/adb /usr/local/bin
+
 # 连接夜神模拟器，或直接使用夜神里面的adb
 adb connect 127.0.0.1:62001
+
 # 显示当前链接的 devices, 显示 127.0.0.1:62001 device 表示OK
 adb devices
+
 # 安装 build-tools 并把 aapt 拷贝到 platform-tools 文件夹
 sdkmanager "build-tools;29.0.2"
 cp /usr/local/share/android-sdk/build-tools/29.0.2/aapt /usr/local/share/android-sdk/platform-tools/
