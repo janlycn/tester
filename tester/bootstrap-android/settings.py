@@ -19,3 +19,8 @@ ANDROID_BASE_CAPS = {
 
 # appium command_executor
 COMMAND_EXECUTOR = 'http://127.0.0.1:4723/wd/hub'
+
+# 测试集合
+TEST_COLLECTION = {
+    'home': 'test_page_home'
+}
