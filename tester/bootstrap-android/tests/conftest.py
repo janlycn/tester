@@ -7,7 +7,7 @@ from appium import webdriver
 
 
 # 函数级 fixture，每个函数执行，执行结果作函数 driver 参数传入
-@pytest.fixture(scope='module')
+@pytest.fixture(scope='class')
 def driver(request):
     caps = copy.copy(settings.ANDROID_BASE_CAPS)
 
