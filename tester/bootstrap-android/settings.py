@@ -22,5 +22,9 @@ COMMAND_EXECUTOR = 'http://127.0.0.1:4723/wd/hub'
 
 # 测试集合
 TEST_COLLECTION = {
-    'home': 'test_page_home'
+    'home': {
+       "pattern": 'test_page_home.py',
+       "report": 'test_page_home.html'
+    },
+    'home_method': 'test_page_home.py::TestPageHome::test_click_home_content'
 }
