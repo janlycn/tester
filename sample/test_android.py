@@ -33,7 +33,7 @@ class TestAndroid():
             command_executor='http://127.0.0.1:4723/wd/hub',
             desired_capabilities=ANDROID_BASE_CAPS
         )
-
+        
         # 隐式等待
         driver.implicitly_wait(10)
         return driver
