@@ -9,6 +9,22 @@
 - [Desired Capabilities 配置参考](docs/desired-capabilities.md)
 - [应用元素定位方法](docs/check-elements.md)
 
+## 使用
+
+环境搭建，参考[相关环境搭建](docs/environment.md)
+
+安装依赖
+
+```shell
+pip3 install -r requirements.txt
+```
+
+执行 bootstrap-android 目录下 run.py
+
+```shell
+python tester/bootstrap-android/run.py all
+```
+
 ## 相关资源
 
 [appium 文档](http://appium.io/docs/en/about-appium/getting-started/index.html#getting-started)
@@ -24,3 +40,5 @@
 [Mac 驱动（适用于 Mac 的桌面应用程序）](http://appium.io/docs/en/drivers/mac/index.html)
 
 [Espresso 驱动程序（适用于 Android 应用）](http://appium.io/docs/en/drivers/android-espresso/index.html)
+
+[pytest文档](http://pytest.org/en/latest/contents.html)
