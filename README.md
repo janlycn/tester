@@ -2,7 +2,7 @@
 
 一个出于学习目的的集成测试项目，基于 python3
 
-- [说明](docs/introduction.md)
+- [项目介绍](docs/introduction.md)
 - [相关环境搭建](docs/environment.md)
 - [关于 appium](docs/about-appium.md)
 - [关于 pytest](docs/about-pytest.md)
@@ -11,7 +11,7 @@
 
 ## 使用
 
-环境搭建，参考[相关环境搭建](docs/environment.md)
+首先查看[项目介绍](docs/introduction.md)，环境搭建参考[相关环境搭建](docs/environment.md)
 
 安装依赖
 
