@@ -3,7 +3,7 @@
 from pages.page_base import PageBase
 
 
-class PageContent(PageBase):
+class ContentElements(PageBase):
 
     # def __init__(self, driver):
     #     PageBase.__init__(self, driver)
