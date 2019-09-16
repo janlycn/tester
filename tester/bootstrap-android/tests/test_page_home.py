@@ -5,7 +5,7 @@ import pytest
 # from tests.base import TBase
 from pages.home.actions import HomeActions
 from pages.content.actions import ContentActions
-from utils import index
+from utils.index import get_sys_path
 
 
 class TestPageHome():
