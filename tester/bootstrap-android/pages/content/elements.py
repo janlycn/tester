@@ -1,4 +1,4 @@
-# content 页
+# Content 页
 
 from pages.page_base import PageBase
 
