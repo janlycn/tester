@@ -1,6 +1,6 @@
 # tester
 
-一个出于学习目的的集成测试项目，基于 python3
+自动化集成测试项目，基于 python3
 
 - [项目介绍](docs/introduction.md)
 - [相关环境搭建](docs/environment.md)
